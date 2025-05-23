@@ -44,7 +44,7 @@ stream-transactions-api/
 
 ⸻
 
-🛠️ Сборка и запуск (Docker)
+Сборка и запуск (Docker)
 
 # Сборка
 docker build -t stream-transactions-api .
@@ -55,7 +55,7 @@ docker run -p 8080:8080 stream-transactions-api
 
 ⸻
 
-📨 Примеры запросов
+Примеры запросов
 
 GET /transactions?offset=0&limit=20
 
@@ -68,7 +68,7 @@ GET /transactions?accountId=12345&date=2023-06-19&offset=40&limit=20
 
 ⸻
 
-🔍 Формат ответа
+Формат ответа
 
 [
   {
